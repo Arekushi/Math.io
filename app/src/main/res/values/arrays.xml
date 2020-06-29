@@ -2,20 +2,24 @@
 <resources>
 
     <!-- Nomes -->
-    <string-array name="math_names">
-        <item>Potência</item>
-        <item>Raiz Quadrada</item>
-        <item>Matrizes</item>
+    <string-array name="matter_names">
+        <item>@string/potencia</item>
+        <item>@string/raiz</item>
+        <item>@string/matriz</item>
     </string-array>
 
     <!-- Images -->
+    <array name="matter_images">
+        <item>@drawable/potencia</item>
+        <item>@drawable/raiz</item>
+        <item>@drawable/matriz</item>
+    </array>
 
     <!-- Descrição -->
-    <string-array name="math_description">
-        <item>A potenciação ou exponenciação é a operação matemática que representa a multiplicação de fatores iguais. Ou seja, usamos a potenciação quando um número é multiplicado por ele mesmo várias vezes.</item>
-        <item>A raiz quadrada (√) de um número é determinada por um número real positivo elevado ao quadrado (x2). Já na raiz cúbica, o número é elevado ao cubo (y3). Além disso, se a raiz for elevada a quarta potência (z4) é chamada de raiz quarta, e se for elevada a quinta potência (t5) é raiz quinta.</item>
-        <item>Matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical). A função das matrizes é relacionar dados numéricos. Por isso, o conceito de matriz não é só importante na Matemática, mas também em outras áreas já que as matrizes têm diversas aplicações.</item>
+    <string-array name="matter_description">
+        <item>@string/potencia_text</item>
+        <item>@string/raiz_text</item>
+        <item>@string/matriz_text</item>
     </string-array>
-
 
 </resources>

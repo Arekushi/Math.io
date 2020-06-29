@@ -1,15 +1,15 @@
 package br.com.arekushi.mathio.model;
 
-import android.media.Image;
+import java.io.Serializable;
 
-public class Matter {
+public class Matter implements Serializable {
     private String name;
-    private Image image;
+    private int imageId;
     private String text;
 
-    public Matter(String name, Image image, String text) {
+    public Matter(String name, int imageId, String text) {
         this.name = name;
-        this.image = image;
+        this.imageId = imageId;
         this.text = text;
     }
 
@@ -17,8 +17,8 @@ public class Matter {
         return name;
     }
 
-    public Image getImage() {
-        return image;
+    public int getImageId() {
+        return imageId;
     }
 
     public String getText() {
@@ -29,8 +29,8 @@ public class Matter {
         this.name = name;
     }
 
-    public void setImage(Image image) {
-        this.image = image;
+    public void setImageId(int imageId) {
+        this.imageId = imageId;
     }
 
     public void setText(String text) {

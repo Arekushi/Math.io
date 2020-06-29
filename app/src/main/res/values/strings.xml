@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Math.io</string>
 
+    <!-- Matters Names -->
+    <string name="potencia">Potência</string>
+    <string name="raiz">Raiz Quadrada</string>
+    <string name="matriz">Matrizes</string>
+
+    <!-- Matters Texts -->
+    <string name="potencia_text">\tA potenciação ou exponenciação é a operação matemática que representa a multiplicação de fatores iguais. Ou seja, usamos a potenciação quando um número é multiplicado por ele mesmo várias vezes.</string>
+    <string name="raiz_text">A raiz quadrada (√) de um número é determinada por um número real positivo elevado ao quadrado (x2). Já na raiz cúbica, o número é elevado ao cubo (y3). Além disso, se a raiz for elevada a quarta potência (z4) é chamada de raiz quarta, e se for elevada a quinta potência (t5) é raiz quinta.</string>
+    <string name="matriz_text">Matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical). A função das matrizes é relacionar dados numéricos. Por isso, o conceito de matriz não é só importante na Matemática, mas também em outras áreas já que as matrizes têm diversas aplicações.</string>
+
+
 </resources>
